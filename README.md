@@ -33,4 +33,5 @@ But Feb 2018
 Google Scripts are Java(esq)scripts that can be run within the Google Sheet.  You can create custom drop down menus with google scripts.
 
 ## How Set are you with Google Scripts
-Whet down the Google script route since I am using the G-Suite products: Sheets, Sites and Forms.  There are limitations with going down this route.  I am not a web developer so did not go down the creation of a website.  But I am open to hear ideals.`
+Went down the Google script route since I am using the G-Suite products: Sheets, Sites and Forms.  There are limitations with going down this route.  I am not a web developer.  
+Which explains why I did not go down the creation of a website.  But I am open to hear ideals.
