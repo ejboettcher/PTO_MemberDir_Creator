@@ -14,7 +14,8 @@ Nonprofits spend their time manually entering membership information into spread
 
 To Do:
 
-* Develop instructions on how to use a set of Google scripts that will auto generate a public and private membership directory as Google sheets.  The public directory will sort the private directory by the child's grade as separate sheets.  
+* Develop instructions on how to use a set of Google scripts that will auto generate a public and private membership directory as Google sheets.  The public directory will sort the private directory by the child's grade as separate sheets.
+
 * Develop instructions on how to use google Scripts to generate a form
 
 * Develop instructions on how to link membership payment system (PayPal)
@@ -22,6 +23,14 @@ To Do:
 * Develop instructions on how a non-profit can set up a G-Suites for non-profits.
 
 * Finish creating the Google scripts.
+
+## Done
+* Google Form Generator from Spread sheet
+** Emails recipients their inputs
+* Email Google Link to those who paid.
+
+
+
 
 ## When
 But Feb 2018
