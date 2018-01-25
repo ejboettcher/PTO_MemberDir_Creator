@@ -69,8 +69,54 @@ e.g. Accounting documents can only be viewed by treasurer and president.
       * Helps prevent out of date documentations form being used
 
 
+
   ---------------------------------------
 
 # PTO Membership Directory
 
-## Goals for PT
+## Goals
+- [x] On-line membership form  (via Google Forms)
+- [x] Auto generate Form (via Google scripts)
+- [ ] Automation of Membership directory (via Google scripts)
+- [ ] On-line payment (via Google scripts)
+- [ ] On-line payment verification
+- [x] Automate sending membership directory to PTO members (via Google scripts)
+
+## Code Stored Here
+[PTO Github account](https://github.com/ejboettcher/PTO_MemberDir_Creator)
+
+-------------------------------------------------
+## Evelyn's Goals
+  * All steps can be down manually
+   - [x] On-line membership forms  (via Google Forms)
+   - [x] Generate Form manually
+   - [x] Generate PTO Directory (manually filler pages)
+   - [x] On-line Payment
+   - [x] Manually verify Payment
+   - [x] Email Membership Directory (manually send email)
+
+------------------------
+
+# Walk through PTO scripts
+## All scripts are in a Google Sheets file
+* Sheet files has four sheets:
+  * **FormInit**: Main sheet for generating a on-line forms
+    * **APP**: PTO Form Generator
+  * **PayPalCheck**: TBD
+  * **DirectoryInit**: Main sheet to generate the membership Directory
+    * **APP**: PTO Member Directory
+  * **EmailDirectory**:
+    * **APP**: Email PTO Member Directory
+
+## Custome APPS
+* Apps (via a PTO Form Apps Menu) enable the automation of: Google Form creation, Directory Creation, Email of Directory.
+![alt text](GoogleSheet_Apps.png)
+
+-----------------------------------
+# Form Creation
+The user must update the user defined inputs, Title of form, classes options, suggested donation amount, output spreadsheet name etc.
+![alt text](GoogleForm.png)
+## FORM
+The form will (once the parent clicks summit) send them a confirmation email with their inputs (or Selected inputs if you want that.)
+
+![alt text](Email2Parent.png)
