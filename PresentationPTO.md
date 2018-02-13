@@ -77,7 +77,7 @@ e.g. Accounting documents can only be viewed by treasurer and president.
 ## Goals
 - [x] On-line membership form  (via Google Forms)
 - [x] Auto generate Form (via Google scripts)
-- [ ] Automation of Membership directory (via Google scripts)
+- [x] Automation of Membership directory (via Google scripts)
 - [ ] On-line payment (via Google scripts)
 - [ ] On-line payment verification
 - [x] Automate sending membership directory to PTO members (via Google scripts)
@@ -120,3 +120,14 @@ The user must update the user defined inputs, Title of form, classes options, su
 The form will (once the parent clicks summit) send them a confirmation email with their inputs (or Selected inputs if you want that.)
 
 ![alt text](Email2Parent.png)
+
+-------------------------------------
+# On-line access
+Sheets can be parsed to make an on-line Directory to a LIVE google spreadsheet.
+
+We control the color, font, what fields are displayed.
+
+see
+https://script.google.com/a/smithschoolpto.com/macros/s/AKfycbwgfy2B-aQCL3JnMkb5CLAE2akoMhwlY7xMnMrwYagWiZi_ZkQ/exec
+
+![alt text](DirHtml.png)
